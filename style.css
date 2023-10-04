@@ -195,7 +195,8 @@
     }
 
     .testimonials {
-      display: flex;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
       align-items: top;
       justify-content: center;
       gap: 30px;
